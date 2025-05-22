@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    font-family: 'poppins',sans-serif;
+    background-color: black;
+    color: white;
+}
+header{
+    text-align: center;
+    padding: 60px 20px;
+}
+span{
+    color: blue;
+}
+
+
+nav{
+    padding: 10px;
+}
+nav a{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: blue;
+}
+section{
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+.about{
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    background: black;
+    box-shadow:0 2px 5px white ;
+}
+h2{
+    color: blue;
+}
+
+
+.info{
+    width: 400px;
+    
+    margin: 10px;
+    
+}
+.BTN{
+    width: 100px;
+    height: 40px;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    background: blue;
+    box-shadow:0 2px 5px white ;
+    color: white;
+
+}
+
+
+
+.hide{
+    width: 100%;
+    height: 100pv;
+    display: none;
+
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    background: black;
+    box-shadow:0 2px 5px white ;
+}
+
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    background: black;
+    box-shadow:0 2px 5px white ;
+}
+.skill-item{
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    background: black;
+    box-shadow:0 2px 5px white ;
+}
+.experiences{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px ;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    background: black;
+    box-shadow:0 2px 5px white ;
+
+}
+
+.exp-item{
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    background: black;
+    box-shadow:0 2px 5px white ;
+}
+#contacts{
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    background: black;
+    box-shadow:0 2px 5px white ;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    /* background:blue ; */
+    color: white;
+    font-size: 14px;
+
+}
+#contacts p {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    margin: 10px 0;
+  }
+
+  #emailForm {
+    display: none;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 300px;
+    background: #f9f9f9;
+  }
+
+  input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
